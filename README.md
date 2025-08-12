@@ -54,7 +54,9 @@ Then use it in your template:
   [speed]="1"
   [resolutionScale]="1"
   style="width: 100%; height: 400px; display: block;"
-></om-dark-veil>
+>
+  <ng-content></ng-content>
+</om-dark-veil>
 ```
 
 ## How It Works
@@ -77,7 +79,9 @@ Then use it in your template:
   [scanlineFrequency]="scanlineFrequency"
   [speed]="speed"
   [resolutionScale]="resolutionScale"
-></om-dark-veil>
+>
+  <ng-content></ng-content>
+</om-dark-veil>
 ```
 
 ### Inputs
@@ -102,7 +106,9 @@ Then use it in your template:
   [scanlineFrequency]="5.0"
   [speed]="1.2"
   style="width: 100%; height: 500px; display: block;"
-></om-dark-veil>
+>
+  <p>Dark Veil</p>
+</om-dark-veil>
 ```
 
 This will create a dark veil with a blue hue, moderate noise, visible scanlines, and slight warping.
