@@ -1,10 +1,10 @@
 ﻿{
   "name": "@omnedia/ngx-dark-veil",
   "description": "A simple component library to create a container with a dark veil background animation.",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "peerDependencies": {
-    "@angular/common": "21.0.0",
-    "@angular/core": "21.0.0",
+    "@angular/common": "^21.0.0",
+    "@angular/core": "^21.0.0",
     "ogl": "^1.0.11"
   },
   "dependencies": {
